@@ -52,3 +52,4 @@ console.log(uz)
 
 // const uz = "dsdsds"
 // console.log(uz).  yani const O'zgarmas constatanta hisoblanadi
+
