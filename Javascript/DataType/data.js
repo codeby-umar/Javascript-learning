@@ -13,10 +13,10 @@
 
 // 1 . string
 
-let Fullname = 'Turg\'unboyov Muhammad Umar';
-let name = 'Muhammad Umar';
-console.log(`Bu malumot turi (${typeof name}) hisoblanadi`)
-console.log(Fullname)
+// let Fullname = 'Turg\'unboyov Muhammad Umar';
+// let name = 'Muhammad Umar';
+// console.log(`Bu malumot turi (${typeof name}) hisoblanadi`)
+// console.log(Fullname)
 
 console.log('.....................................')
 
@@ -64,25 +64,48 @@ let JsonData = {
 }
 
 
-let talaba_login = prompt('Sizning loginingizni kiriting :');
-let talaba_password = prompt('Sizning passwordiningz kiriting :')
+// let talaba_login = prompt('Sizning loginingizni kiriting :');
+// let talaba_password = prompt('Sizning passwordiningz kiriting :')
 
-let check1 = JsonData.login;
-let check2= JsonData.password;
+// let check1 = JsonData.login;
+// let check2= JsonData.password;
 
-console.log(check2.length)
-if(check2.length == '3'){
-    console.log('Siz togri pasword kiritdingiz !')
-}else if(check2.length <= 3){
-    alert(`Kechirasiz maksimum 6 tadan kam bo'lmasligi kerak , sizda : ${check2.length} !!`)
-}else{
-    console.log('Sizda nimalik xatolik bolmoqda')
-}
+// console.log(check2.length)
+// if(check2.length == '3'){
+//     console.log('Siz togri pasword kiritdingiz !')
+// }else if(check2.length <= 3){
+//     alert(`Kechirasiz maksimum 6 tadan kam bo'lmasligi kerak , sizda : ${check2.length} !!`)
+// }else{
+//     console.log('Sizda nimalik xatolik bolmoqda')
+// }
 
 
-if(talaba_login == check1 && talaba_password == check2){
-    console.log(`Siz bizning website xush kelibsiz . Sizning loginingiz to'gri !`)
-    alert(`Siz bizning website xush kelibsiz || Sining loginingiz : ${check1} , Sizning passwordingiz : ${check2}`)
-}else {
-    alert('Sizning malumotlariningizda nimadu xatolik yuz bermoqda')
-}
+// if(talaba_login == check1 && talaba_password == check2){
+//     console.log(`Siz bizning website xush kelibsiz . Sizning loginingiz to'gri !`)
+//     alert(`Siz bizning website xush kelibsiz || Sining loginingiz : ${check1} , Sizning passwordingiz : ${check2}`)
+// }else {
+//     alert('Sizning malumotlariningizda nimadu xatolik yuz bermoqda')
+// }
+
+
+
+
+
+
+console.log('================================================================================')
+console.log('Sizning orderingiz yani yon kashaloginingiz')
+console.log('================================================================================')
+
+let name = prompt("Isminingizni kiritiring :");
+let aga = prompt("Yoshingizni kirititing :")
+let order = prompt("Sizning hamyonigizda qancha naq pul bor : ");
+
+Toliq_Information = `Sizning Ismingiz : ${name} , Sizning yoshingiz : ${aga} , Sizning hamyoningizda : ${order} ming naq pulingiz bor`
+
+console.log('............................................................')
+console.log(Toliq_Information)
+console.log('............................................................');
+
+console.log('================================================================================')
+
+let market = ['Olma' , 'Banan' , 'Nok' , 'Uzum' , '']
