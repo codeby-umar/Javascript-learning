@@ -18,29 +18,29 @@
 // console.log(`Bu malumot turi (${typeof name}) hisoblanadi`)
 // console.log(Fullname)
 
-console.log('.....................................')
+// console.log('.....................................')
 
-var news = "Bugun o'zbekistonda katta ozgarishlar yol bermoqda bizni yurtimiszdan juda katta dasturchi yetishim kelmoda \
-uni ismi : Muhammad Umar Turgunboyov hisoblanadi ";
-console.log(news)
+// var news = "Bugun o'zbekistonda katta ozgarishlar yol bermoqda bizni yurtimiszdan juda katta dasturchi yetishim kelmoda \
+// uni ismi : Muhammad Umar Turgunboyov hisoblanadi ";
+// console.log(news)
 
-console.log('------------------------------------------------------------------')
+// console.log('------------------------------------------------------------------')
 
-let text = 34;
+// let text = 34;
 
-if(typeof text == 'string'){
-    console.log(`Bu malumot turi (${ typeof text}) ma'lumot turi  hisoblanadi`)
-}else if(typeof text ==  'number'){
-    console.log(`Bu malumot turi (${typeof text}) ma'lumot turi hisoblanadi`)
-}else if(typeof text == 'boolean'){
-    console.log(`Bu malumot turi (${typeof text}) ma'lumot turi hisoblanadi`)
-}else if( typeof text == 'object'){
-    console.log(`Bu malumot turi (${typeof text}) ma'lumot turi hisoblanadi`)
-}else {
-    console.log("Siz logikanisz nimadur xatolik yuz berdi")
-}
+// if(typeof text == 'string'){
+//     console.log(`Bu malumot turi (${ typeof text}) ma'lumot turi  hisoblanadi`)
+// }else if(typeof text ==  'number'){
+//     console.log(`Bu malumot turi (${typeof text}) ma'lumot turi hisoblanadi`)
+// }else if(typeof text == 'boolean'){
+//     console.log(`Bu malumot turi (${typeof text}) ma'lumot turi hisoblanadi`)
+// }else if( typeof text == 'object'){
+//     console.log(`Bu malumot turi (${typeof text}) ma'lumot turi hisoblanadi`)
+// }else {
+//     console.log("Siz logikanisz nimadur xatolik yuz berdi")
+// }
 
-console.log('------------------------------------------------------------------')
+// console.log('------------------------------------------------------------------')
 
 
 
@@ -108,4 +108,38 @@ console.log('............................................................');
 
 console.log('================================================================================')
 
-let market = ['Olma' , 'Banan' , 'Nok' , 'Uzum' , '']
+let market = ['Olma' , 'Banan' , 'Nok' , 'Uzum' , 'Orik' , 'Shaftoli'];
+let money = [5 , 24 , 9 ,10 , 23 , 12];
+console.log(`Bizning bor dokondagi mevalar : ${market} `)
+
+
+let meva_Tanlang = prompt('Siz qanday meva harid qilmoqchisiz :')
+
+if(meva_Tanlang == market[0].toLowerCase()){
+    let narx = order - money[0]
+    alert(`Siz ${meva_Tanlang} sotib oldingiz va Sizda qolgan pullingiz : ${narx} `)
+}else if(meva_Tanlang == market[1].toLowerCase()){
+    let narx = order - money[1]
+    alert(`Siz ${meva_Tanlang} sotib oldingiz va Sizda qolgan pullingiz : ${narx} `)
+}else if(meva_Tanlang == market[2].toLowerCase()){
+    let narx = order - money[2]
+    alert(`Siz ${meva_Tanlang} sotib oldingiz va Sizda qolgan pullingiz : ${narx} `)
+}else if(meva_Tanlang == market[3].toLowerCase()){
+    let narx = order - money[3]
+    alert(`Siz ${meva_Tanlang} sotib oldingiz va Sizda qolgan pullingiz : ${narx} `)
+}else if(meva_Tanlang == market[4].toLowerCase()){
+    let narx = order - money[4]
+    alert(`Siz ${meva_Tanlang} sotib oldingiz va Sizda qolgan pullingiz : ${narx} `)
+}else if(meva_Tanlang == market[5].toLowerCase()){
+    let narx = order - money[5]
+    alert(`Siz ${meva_Tanlang} sotib oldingiz va Sizda qolgan pullingiz : ${narx} `)
+}else{
+   console.log('Sizni meva sotib olgani pulingiz yetmaydi !!!')
+}
+
+
+
+
+
+
+
