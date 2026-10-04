@@ -6,15 +6,19 @@
 
 
 
-// let AllserialStaion = {
-//     id : 1,
-//     name : isName,
-//     filmNumber : isInput,
-//     status : Status,
-//     start : false,
-//     option : "Hello world"
-// }
-// console.log(AllserialStaion)
+
+
+
+
+let AllserialStaion = {
+    id : 1,
+    name : isName,
+    filmNumber : isInput,
+    status : Status,
+    start : false,
+    option : "Hello world"
+}
+console.log(AllserialStaion)
 
 
 

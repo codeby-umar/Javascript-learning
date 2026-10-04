@@ -44,10 +44,23 @@
 
 
 
+
+
+
+
 // let login = prompt('Sizning ismingiz kiriting :');
 // let password = prompt('Sizning familyaniszni kiriting :')
 // var fullData = `Sizning ismingiz : ${login} , Sizning familyanisiz : ${password}`;
 // console.log(fullData)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -62,6 +75,23 @@ let JsonData = {
       interest : ['Sport' , 'Game' , 'Coding' , 'Fitness']
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // let talaba_login = prompt('Sizning loginingizni kiriting :');
