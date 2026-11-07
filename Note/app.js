@@ -44,3 +44,16 @@ dkoedket. Blanditiis id vel corrupti.*/
 
 
 
+let cars_Name = ['Cobalt' , 'damas' , 'matiz' , 'tico'];
+console.log(cars_Name);
+
+
+let about = {
+    name : "Muhammad Umar",
+    age : 18,
+    job : "Frontend developer"
+}
+console.log(about)
+
+
+
