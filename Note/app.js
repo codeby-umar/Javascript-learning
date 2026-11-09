@@ -44,16 +44,92 @@ dkoedket. Blanditiis id vel corrupti.*/
 
 
 
-let cars_Name = ['Cobalt' , 'damas' , 'matiz' , 'tico'];
-console.log(cars_Name);
+// let cars_Name = ['Cobalt' , 'damas' , 'matiz' , 'tico'];
+// console.log(cars_Name);
 
 
-let about = {
-    name : "Muhammad Umar",
+// let about = {
+//     name : "Muhammad Umar",
+//     age : 18,
+//     job : "Frontend developer"
+// }
+// console.log(about)
+
+// 1 - topshiriq
+
+let FullName = String(ism = "Muhammad Umar" , familya = "Turg'unboyov");
+console.log(familya , ism) 
+
+
+// 2 - topshiriq
+
+let type = "What's up bro";
+let age = 18;
+let bool = true;
+
+console.log(typeof type , typeof age , typeof bool);
+
+
+// 3 - topshiriq
+
+let ages = 18;
+console.log("eski yoshingiz : " , ages);
+console.log("Oradan bir yil otdi va sening yoshing")
+ages = 19;
+console.log(ages);
+
+// 4 - topshiriq
+ 
+let prodectName = "Olam";
+let productProce = 20000;
+let prodectCound = 6;
+let description = "Ollma juda yaxshi meva va insonni juda kayfiyatini ko'tarib yuboradi va emotionini ham judaa foidali";
+console.log(`Sizning yoqtirgan olmanignz : ${prodectName} , Va u menvani narxi : ${productProce} , Meva haqida : ${description}`);
+
+// 5 - topshiriq
+
+const Descrition_Student = {
+    firstName : "Muhaammad Umar".toLocaleUpperCase(),
+    LastName : "Turg'unboyov".toLocaleUpperCase(),
+    yosh : 18,
+    universitet : "Andijon davlat texnik instutituti",
+    isStudent : true,
+    isActive : true
+};
+
+console.log(Descrition_Student);
+
+
+// 6 - topshiriq
+
+// let InputSaved = +prompt('Qancah olma oldingiz :');
+// let InputPrice = +prompt('Olmaingiz Narxi : ');
+// const olma_Star = 30;
+// const fullCound = InputPrice + InputSaved + olma_Star;
+// console.log("Sizning jami element raqamlar yig'indisi :" , fullCound );
+
+// 7 - topshiriq
+// type conversion - yani bitta malumot turini avtomatik o'zgarishi boshqa malumot turiga
+
+let boom = '10' * 2;
+console.log( typeof boom);
+
+let isBetta = '30' * '30';
+console.log(isBetta)
+
+
+// 8 - topshiriq
+
+let Olamazor_Odamlar = {
+    ism : "umar".toUpperCase(),
     age : 18,
-    job : "Frontend developer"
-}
-console.log(about)
-
-
+    email : "umar@gmail.com",
+    phone : '+998507121208',
+    isVerifi : true,
+    skills : ['Html' , 'Css' , 'Javascript' , 'React']
+};
+console.log(Olamazor_Odamlar);
+console.log( typeof Olamazor_Odamlar.age);
+console.log( typeof Olamazor_Odamlar.skills);
+console.log( typeof Olamazor_Odamlar.isVerifi);
 
