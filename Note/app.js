@@ -141,9 +141,6 @@ console.log(typeof hajm);
 //     console.log(overYear)
 // }
 
-console.log(
-  "------------------------------------------------------------------",
-);
 
 /* Bu hozir mini cart ilova uchun kichkina bo'lsada mini project qilmoqchiman qani kettik   */
 
