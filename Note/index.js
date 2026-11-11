@@ -50,7 +50,7 @@
 // let cardMoney = 2000;
 
 
-    
+
 
 // if (pinCode == savedNumber) {
 //     console.log('Siznig parolingiz to\'g\'ri keyingi amalni bajarishingiz mumkin');
@@ -97,3 +97,111 @@
 // Agar 80–99% oralig'ida bo'lsa, deyarli to'langan deb chiqar.
 // Agar 100% yoki undan ko'p bo'lsa, kontrakt to'liq to'langan deb chiqar.
 // Davomat 70% dan past bo'lsa, alohida ogohlantirish chiqar.
+
+
+// let isActive = prompt('Siz hozirda jarayondamisz Y/N :' , 'Y');
+// let action = 8100;
+// let sell = 7100
+// let umimiySumma = (sell / action) * 100
+// let airBag = Math.floor(umimiySumma)
+
+// if(isActive == 'Y'){
+//    if(airBag <= 50){
+//     console.log(`Sizning to\'agan pulingiz 50% yetmayapti : ${airBag}% to'langan`)
+//    }else if(airBag >= 50 || airBag <= 80){
+//     console.log(`Siz kantrakt pulingizni qisman tolangan : ${airBag}% to'langan `)
+//    }else if(airBag >= 100){
+//     console.log(`Siz 100% to'lov qilgansiz to'lov qilingan summa : ${airBag} % to'langan`)
+//    }else{
+//     alert('Sizda numadur xatoli yuz berdi')
+//    }
+// }
+
+
+
+
+
+
+
+
+
+// if(isActive == 'Y'){
+//     if(action == 0){
+//         console.log('Siz hech qanday mablag\' to\'lamadingiz !')
+//     }else if((action * 50) / 100){
+//         console.log('Siz 50% to\'lov qilgansiz !')
+//     }else if((action * 50) / 100 || (action * 80) / 100){
+//         console.log('Siz to\'lov qilgansiz')
+//     }else if((action * 100) / 100){
+//         console.log('Siz to\'liq to\'lov qilgansiz')
+//     }else{
+//         alert('Sizda nimadur xatolik yuz berdi')
+//     }
+// }else if(isActive == 'N'){
+//     alert('Siz active emassiz qayta uruning')
+// }
+
+
+
+// 5 - topshiriq
+
+// hafta kunlarni chiqaraib bertuvchi dastur
+
+// const weekDay = 6;
+
+// switch (weekDay) {
+//     case 1:
+//         console.log('Bugun dushanba kuningiz barokatli o\'tsin brodar');
+//         break;
+//     case 2:
+//         console.log('Bugun Seshanba kuningiz barokatli o\'tsin brodar');
+//         break;
+//     case 3:
+//         console.log('Bugun chorshanba kuningiz barokatli o\'tsin brodar');
+//         break;
+//     case 4:
+//         console.log('Bugun Payshanba kuningiz barokatli o\'tsin brodar');
+//         break;
+//     case 5:
+//         console.log('Bugun Juma muborak kuningiz barokatli o\'tsin brodar');
+//         break;
+//     case 6:
+//         console.log('Bugun Shanba kuningiz barokatli o\'tsin brodar');
+//         break;
+//     case 7:
+//         console.log('Bugun Yakshanba kuningiz barokatli o\'tsin brodar');
+//         break;
+
+//     default: 'Siz qandaydur kun hafta tanlashingiz lozim !'
+// }
+
+
+
+// 6 - topshiriq
+
+// const num = 30;
+// const num1 = 40;
+// let input = prompt('Siz qanday operatordan foidalanmoqchisiz :');
+
+// switch(input){
+//     case '+':
+//         console.log(`Siz + amalini bajardingiz : ${num + num1}`);
+//         break;
+//     case '-':
+//         console.log(`Siz - amalini bajardingiz : ${num - num1}`);
+//         break;
+//     case '*':
+//         console.log(`Siz * amalini bajardingiz : ${num * num1}`);
+//         break;
+//     case '/':
+//         console.log(`Siz / amalini bajardingiz : ${num / num1}`);
+//         break;
+//     case '**':
+//         console.log(`Siz ** amalini bajardingiz darajaga ko'tarish : ${num ** num1}`);
+//         break;
+
+// }
+
+
+
+// 7 - topshiriq
