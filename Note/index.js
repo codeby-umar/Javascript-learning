@@ -205,3 +205,49 @@
 
 
 // 7 - topshiriq
+// Mobil operator tarif tizimini yarat.
+
+
+// console.log('----------------------------------------------------------');
+// console.log("20 - So'mli tarif , 30 - tarif , 80 - tarifgacha")
+// console.log('----------------------------------------------------------');
+
+
+// let tarif = +prompt('Sizning tarifingiz :');
+// let balans = 5000;
+
+// switch(tarif){
+//     case 20:
+//         console.log(`Sizga 21 GB berildi , Hisobingizda : ${balans - tarif} so'm pulingiz qoldi`);
+//             let saom = confirm('Siz tarix holatini ko\'rishni hohlaysizmi :')
+//                 if(saom == true){
+//                     let malumot = ['Siz 20 so\'mli tarifdasiz ' , 'Sizga 21 GB berildi ' , 'Sizning simkarta active holatada !']
+//                     console.log(malumot)
+//                 }else{
+//                     console.log('Ha mayli tarifni korishni hohlamaysizmi !')
+//                 }
+//         break;
+//     case 30:
+//         console.log(`Sizga 31 GB berildi , Hisobingizda : ${balans - tarif} so'm pulingiz qoldi`);
+//         break;
+//     case 40:
+//         console.log(`Sizga 41 GB berildi , Hisobingizda : ${balans - tarif} so'm pulingiz qoldi`);
+//         break;
+//     case 50:
+//         console.log(`Sizga 51 GB berildi , Hisobingizda : ${balans - tarif} so'm pulingiz qoldi`);
+//         break;
+//     case 60:
+//         console.log(`Sizga 61 GB berildi , Hisobingizda : ${balans - tarif} so'm pulingiz qoldi`);
+//         break;
+//     case 70:
+//         console.log(`Sizga 71 GB berildi , Hisobingizda : ${balans - tarif} so'm pulingiz qoldi`);
+//         break;
+//     case 80:
+//         console.log(`Sizga 81 GB berildi , Hisobingizda : ${balans - tarif} so'm pulingiz qoldi`);
+//         break;
+//     default : console.log('Bizda bunday tarifimisz mavjuda emas !')
+// }
+
+
+// 8 - topshiriq
+
