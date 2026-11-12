@@ -251,3 +251,32 @@
 
 // 8 - topshiriq
 
+// let adminUser = {
+//     id : 1,
+//     user : "Muhammad Umar",
+//     code : 1208,
+//     pin : '2309',
+//     status : 'active',
+//     balance : 150000000,
+//     dailySpeed : 0,
+//     cardNumber: "9860 4350 5609 2190",
+//     description : "Humo in viza card",
+//     transection : []
+// }
+
+// let enterCard = +prompt('Karta raqam kiriting :' , '9860435056092190');
+// let enterPin = +prompt('Karta password kiriting :' , '2309');
+// let tekshirish = adminUser.cardNumber.replaceAll(' ' , '');
+// let verificationPin = adminUser.pin;
+
+// if(verificationPin.length <= 4){
+//     alert('Sizning pincode va karta malumotlarinigz to\'ri')
+// }else{
+//     console.log('Sizda xatolik yuz berdi')
+// }
+
+// if(enterCard == tekshirish && enterPin == adminUser.pin){
+     
+// }
+
+
